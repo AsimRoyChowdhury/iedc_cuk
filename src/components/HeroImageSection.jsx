@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion, useScroll, useTransform } from 'framer-motion';
+import cukVideo from '../assets/cuk_video.mp4'; 
+import cukPoster from '../assets/posters/cuk_poster.jpg'; 
 
 const HeroImageSection = () => {
     const scrollRef = useRef(null);
@@ -22,10 +24,10 @@ const HeroImageSection = () => {
                     loop
                     muted
                     playsInline
-                    poster="./src/assets/posters/cuk_poster.jpg"
+                    poster={cukPoster}
                     className="w-full h-full object-cover"
                 >
-                    <source src="./src/assets/cuk_video.mp4" type="video/mp4" />
+                    <source src={cukVideo} type="video/mp4" />
                 </video>
             </div>
             

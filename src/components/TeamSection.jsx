@@ -1,21 +1,33 @@
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import adithyaVPic from "../assets/members/adithya v pic.jpg";
+import rajitnaPic from "../assets/members/rajitna pic.jpg";
+import shilpaPic from "../assets/members/shilpa pic.jpg";
+import snehaPic from "../assets/members/sneha pic.jpg";
+import thabseeraPic from "../assets/members/thabseera pic.jpg";
+import rifanaPic from "../assets/members/rifana pic.jpg";
+import adithyaPic from "../assets/members/adithya pic.jpg";
+import zuhairsPic from "../assets/members/zuhair pic.jpg";
+import raniyaPic from "../assets/members/raniya pic.jpg";
+import asimPic from "../assets/members/asim pic.jpg";
+import sharmiPic from "../assets/members/sharmi pic.jpg";
+import karthikPic from "../assets/members/karthik pic.jpg";
 
 const TeamSection = () => {
   const teamMembers = [
-    { name: "Dr. Adithya V.", role: "Nodal Officer", image: "./src/assets/members/adithya v pic.jpg" },
-    { name: "Ms. Rajitna Balakrishnan", role: "Co-Nodal Officer", image: "./src/assets/members/rajitna pic.jpg" },
-    { name: "Silpa A. R.", role: "IEDC Lead I", image: "./src/assets/members/shilpa pic.jpg" },
-    { name: "Sneha Krishna K.", role: "IEDC Lead II", image: "./src/assets/members/sneha pic.jpg" },
-    { name: "Fathimath Tabhseera", role: "Women Innovation Lead", image: "./src/assets/members/thabseera pic.jpg" },
-    { name: "Rifana Rahim", role: "Community Lead", image: "./src/assets/members/rifana pic.jpg" },
-    { name: "Adithya Anil", role: "Finance Lead", image: "./src/assets/members/adithya pic.jpg" },
-    { name: "Muhammed Zuhair P.", role: "Research & IPR Lead", image: "./src/assets/members/zuhair pic.jpg" },
-    { name: "Raniya Zainab", role: "Branding & Marketing Lead", image: "./src/assets/members/raniya pic.jpg" },
-    { name: "Asim Roy Chowdhury", role: "Technology Lead", image: "./src/assets/members/asim pic.jpg" },
-    { name: "Sharmila M.", role: "Quality & Operation Lead", image: "./src/assets/members/sharmi pic.jpg" },
-    { name: "Boyina Karthik", role: "Creativity & Innovation Lead", image: "./src/assets/members/karthik pic.jpg" },
+    { name: "Dr. Adithya V.", role: "Nodal Officer", image: adithyaVPic },
+    { name: "Ms. Rajitna Balakrishnan", role: "Co-Nodal Officer", image: rajitnaPic },
+    { name: "Silpa A. R.", role: "IEDC Lead I", image: shilpaPic },
+    { name: "Sneha Krishna K.", role: "IEDC Lead II", image: snehaPic },
+    { name: "Fathimath Tabhseera", role: "Women Innovation Lead", image: thabseeraPic },
+    { name: "Rifana Rahim", role: "Community Lead", image: rifanaPic },
+    { name: "Adithya Anil", role: "Finance Lead", image: adithyaPic },
+    { name: "Muhammed Zuhair P.", role: "Research & IPR Lead", image: zuhairsPic },
+    { name: "Raniya Zainab", role: "Branding & Marketing Lead", image: raniyaPic },
+    { name: "Asim Roy Chowdhury", role: "Technology Lead", image: asimPic },
+    { name: "Sharmila M.", role: "Quality & Operation Lead", image: sharmiPic },
+    { name: "Boyina Karthik", role: "Creativity & Innovation Lead", image: karthikPic },
   ];
 
   // Animation variants for each individual card

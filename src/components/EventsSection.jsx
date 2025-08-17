@@ -2,10 +2,11 @@ import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import AnimatedSection from './AnimatedSection';
+import iedcOrientationImage from '../assets/posters/iedc_orientation.jpeg';
 
 const EventsSection = () => {
     const events = [
-        { title: "IEDC Orientation", date: "19th Aug, 2025 | 10 AM to 12 PM | Sabarmati Hall", description: "Kickstart your journey into innovation and entrepreneurship with the IEDC Orientation. Open to all, no prior experience needed!", link: "", image: "./src/assets/posters/iedc_orientation.jpeg" },
+        { title: "IEDC Orientation", date: "19th Aug, 2025 | 10 AM to 12 PM | Sabarmati Hall", description: "Kickstart your journey into innovation and entrepreneurship with the IEDC Orientation. Open to all, no prior experience needed!", link: "", image: iedcOrientationImage },
     ];
 
     const containerClass = events.length < 3 
