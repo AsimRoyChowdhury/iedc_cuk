@@ -32,7 +32,7 @@ const Footer = () => {
 
             <div className="container mx-auto px-6 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-                    <div>
+                    <div className='flex flex-col justify-center items-center'>
                         <a href="#" className="text-2xl font-bold text-white z-10 flex items-center">
                         <img src="./iedc_logo.png" alt="IEDC Logo" className="inline-block h-6 mr-2" />
                         IEDC <span className="gradient-text ml-2">CUK</span>
