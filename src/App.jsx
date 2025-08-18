@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="bg-slate-950">
-      <Spotlight />
+      {/* <Spotlight /> */}
       <Header isVisible={isHeaderVisible} />
       
       {/* 1. The hero section is placed in a fixed container that acts as a background */}
