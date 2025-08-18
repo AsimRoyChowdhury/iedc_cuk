@@ -6,7 +6,7 @@ import iedcOrientationImage from '../assets/posters/iedc_orientation.jpeg';
 
 const EventsSection = () => {
     const events = [
-        { title: "IEDC Orientation", date: "19th Aug, 2025 | 10 AM to 12 PM | Sabarmati Hall", description: "Kickstart your journey into innovation and entrepreneurship with the IEDC Orientation. Open to all, no prior experience needed!", link: "", image: iedcOrientationImage },
+        { title: "IEDC Orientation", date: "19th Aug, 2025 | 10 AM to 12 PM | Sindhu Seminar Hall", description: "Kickstart your journey into innovation and entrepreneurship with the IEDC Orientation. Open to all, no prior experience needed!", link: "", image: iedcOrientationImage },
     ];
 
     const containerClass = events.length < 3 
